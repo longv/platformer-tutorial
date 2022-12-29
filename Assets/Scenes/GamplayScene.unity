@@ -714,17 +714,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1407437942 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4196600221890964465, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-  m_PrefabInstance: {fileID: 457838802673047726}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce0ba92eb9e78b74eb0d616e2e3fc07e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1407437944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 457838802700588342, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
@@ -982,34 +971,6 @@ PrefabInstance:
     - target: {fileID: 457838802700588344, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1407437942}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: onMove
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2658383648825464518, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14d4f89c695ef804684f6265e622d625, type: 3}
